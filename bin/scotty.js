@@ -102,6 +102,7 @@ function readArgs() {
   })
 }
 
+// eslint-disable-next-line no-unused-vars
 function getConfigFile() {
   try {
     return require(configFilePath)
@@ -156,6 +157,7 @@ function setAWSProfile(profile) {
   // Replace the file value for the CLI one if exist
   if (profile) {
     options.profile = profile
+    process.env.AWS_PROFILE = profile
     
     // update the Credentials for the current value or the default value which is 'default'
     AWS.config.credentials = new AWS.SharedIniFileCredentials(options)

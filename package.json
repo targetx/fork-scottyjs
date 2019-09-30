@@ -1,6 +1,6 @@
 {
-  "name": "scottyjs",
-  "version": "1.10.2",
+  "name": "@targetx/scottyjs",
+  "version": "2.0.0",
   "description": "A simple CLI tool that deploys your project to AWS S3",
   "main": "index.js",
   "bin": {
@@ -20,28 +20,36 @@
   "author": "Slobodan Stojanovic <slobodan@cloudhorizon.com> (http://slobodan.me/)",
   "license": "MIT",
   "dependencies": {
-    "aws-sdk": "^2.178.0",
-    "chalk": "^2.1.0",
-    "clipboardy": "^1.1.4",
-    "colors": "^1.1.2",
-    "get-folder-size": "^1.0.0",
-    "inquirer": "^3.2.2",
-    "mime": "^1.4.1",
-    "minimist": "^1.2.0"
+    "aws-sdk": "2.538.0",
+    "chalk": "2.1.0",
+    "clipboardy": "1.2.3",
+    "colors": "1.4.0",
+    "get-folder-size": "1.0.1",
+    "glob": "7.1.4",
+    "inquirer": "3.3.0",
+    "mime": "1.6.0",
+    "minimist": "1.2.0"
   },
   "devDependencies": {
-    "eslint": "^3.19.0",
-    "eslint-config-defaults": "^9.0.0",
-    "jasmine": "^2.7.0",
-    "jasmine-spec-reporter": "^4.2.0",
-    "snyk": "^1.62.2"
+    "eslint": "3.19.0",
+    "eslint-config-defaults": "9.0.0",
+    "jasmine": "2.99.0",
+    "jasmine-spec-reporter": "4.2.1",
+    "snyk": "1.228.5"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stojanovic/scottyjs.git"
+    "url": "https://github.com/targetx/fork-scottyjs.git"
   },
   "bugs": {
-    "url": "https://github.com/stojanovic/scottyjs/issues"
+    "url": "https://github.com/targetx/fork-scottyjs/issues"
   },
-  "homepage": "https://github.com/stojanovic/scottyjs#readme"
+  "homepage": "https://github.com/targetx/fork-scottyjs#readme",
+  "files": [
+    "index.js",
+    "scotty-header.png",
+    "scotty-intro.gif",
+    "bin",
+    "lib"
+  ]
 }
